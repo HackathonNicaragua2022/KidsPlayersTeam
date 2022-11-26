@@ -186,7 +186,7 @@ class DropButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return _Description(
-      text: 'borrar',
+      text: 'drop',
       child: _Button(
           enableLongPress: false,
           size: Size(90, 90),

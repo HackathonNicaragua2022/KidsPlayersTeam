@@ -35,7 +35,7 @@ class _GameMaterialState extends State<GameMaterial> {
     if (material != null) {
       return;
     }
-    final bytes = await rootBundle.load("assets/material.png");
+    final bytes = await rootBundle.load("assets/img/material.png");
     final codec = await ui.instantiateImageCodec(bytes.buffer.asUint8List());
     final frame = await codec.getNextFrame();
     setState(() {

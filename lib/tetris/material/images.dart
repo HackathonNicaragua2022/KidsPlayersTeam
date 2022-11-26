@@ -16,7 +16,7 @@ class Number extends StatelessWidget {
 
   final bool padWithZero;
 
-  Number({
+  const Number({
     Key? key,
     this.length = 5,
     required this.number,
